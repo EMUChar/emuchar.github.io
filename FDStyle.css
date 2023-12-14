@@ -51,8 +51,7 @@ div.content {
 	border-bottom-width: 1px;
     border-bottom-style: solid;
 }
-
-#fdlogo {
+ /* This is to get the logo to "stick" to the left of the navbar */
     display: inline-flex;
     position: relative;
     left: 40px;
@@ -102,9 +101,7 @@ body main p {
 
 }
 
-
-
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {  /* The @media handles both the landing page (moving the image up on smaller displays and changing the background color) and the display method for the content class */
 	#doorToNowhere {
   	  -webkit-box-shadow: 10px 10px #000000;
   	  box-shadow: 10px 10px #000000;
@@ -151,7 +148,6 @@ body main {
 }
 
 nav {
-    background-color: #000000;
     color: #FFFFFF;
     padding-top: 20px;
     padding-bottom: 20px;
