@@ -52,6 +52,7 @@ div.content {
     border-bottom-style: solid;
 }
  /* This is to get the logo to "stick" to the left of the navbar */
+ #fdlogo {
     display: inline-flex;
     position: relative;
     left: 40px;
@@ -96,9 +97,6 @@ body {
 }
 .gallery img {
 	width: calc(100% - 15px);
-}
-body main p {
-
 }
 
 @media screen and (min-width: 480px) {  /* The @media handles both the landing page (moving the image up on smaller displays and changing the background color) and the display method for the content class */
