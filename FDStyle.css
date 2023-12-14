@@ -101,23 +101,23 @@ body {
 
 @media screen and (min-width: 480px) {  /* The @media handles both the landing page (moving the image up on smaller displays and changing the background color) and the display method for the content class */
 	#doorToNowhere {
-  	  -webkit-box-shadow: 10px 10px #000000;
-  	  box-shadow: 10px 10px #000000;
-  	  position: relative;
-  	  top: 8%;
+		-webkit-box-shadow: 10px 10px #000000;
+		box-shadow: 10px 10px #000000;
+		position: relative;
+		top: 8%;
 	}
 	#landingPage {
-    background-image: url("Images/Background.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    background-attachment: fixed;
+		background-image: url("Images/Background.png");
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: cover;
+		background-attachment: fixed;
 	}
 	.content {
-	display: inline-block;
+		display: inline-block;
 	}
 	div.content {
-	width: 40%;
+		width: 40%;
 	}
 }
 
@@ -151,9 +151,9 @@ nav {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    background-image: -webkit-linear-gradient(0deg,rgba(159,0,255,1.00) 0%,rgba(0,0,255,1.00) 100%);
-    background-image: -moz-linear-gradient(0deg,rgba(159,0,255,1.00) 0%,rgba(0,0,255,1.00) 100%);
-    background-image: -o-linear-gradient(0deg,rgba(159,0,255,1.00) 0%,rgba(0,0,255,1.00) 100%);
+    background-image: -webkit-linear-gradient(90deg,rgba(159,0,255,1.00) 0%,rgba(0,0,255,1.00) 100%);
+    background-image: -moz-linear-gradient(90deg,rgba(159,0,255,1.00) 0%,rgba(0,0,255,1.00) 100%);
+    background-image: -o-linear-gradient(90deg,rgba(159,0,255,1.00) 0%,rgba(0,0,255,1.00) 100%);
     background-image: linear-gradient(90deg,rgba(159,0,255,1.00) 0%,rgba(0,0,255,1.00) 100%);
     -webkit-box-shadow: 5px 5px #000000;
     box-shadow: 5px 5px #000000;
